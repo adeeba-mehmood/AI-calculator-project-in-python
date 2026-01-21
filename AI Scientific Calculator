@@ -1,0 +1,62 @@
+import math
+print("----- Welcome to AI Scientific Calculator -----")
+while True:
+    print("\nSelect what you want to calculate:")
+    print("1) Addition")
+    print("2) Subtraction")
+    print("3) Multiplication")
+    print("4) Division")
+    print("5) Square Root")
+    print("6) Power")
+    print("7) Sine (in degrees)")
+    print("8) Cosine (in degrees)")
+    print("9) Tangent (in degrees)")
+    print("10) Natural Log")
+    print("11) Exit Program")
+
+    option = input("Enter option number: ")
+
+    if option == "11":
+        print("Program terminated successfully.")
+        break
+
+    if option in ["1", "2", "3", "4", "6"]:
+        a = float(input("Enter first value: "))
+        b = float(input("Enter second value: "))
+
+        if option == "1":
+            print("Answer =", a + b)
+        elif option == "2":
+            print("Answer =", a - b)
+        elif option == "3":
+            print("Answer =", a * b)
+        elif option == "4":
+            if b != 0:
+                print("Answer =", a / b)
+            else:
+                print("Error: Cannot divide by zero")
+        elif option == "6":
+            print("Answer =", a ** b)
+
+    elif option == "5":
+        n = float(input("Enter number: "))
+        print("Answer =", math.sqrt(n))
+
+    elif option == "7":
+        angle = float(input("Enter angle in degrees: "))
+        print("Answer =", math.sin(math.radians(angle)))
+
+    elif option == "8":
+        angle = float(input("Enter angle in degrees: "))
+        print("Answer =", math.cos(math.radians(angle)))
+
+    elif option == "9":
+        angle = float(input("Enter angle in degrees: "))
+        print("Answer =", math.tan(math.radians(angle)))
+
+    elif option == "10":
+        n = float(input("Enter number: "))
+        print("Answer =", math.log(n))
+
+    else:
+        print("Invalid option! Please choose again.")
