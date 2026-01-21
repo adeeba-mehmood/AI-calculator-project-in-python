@@ -1,8 +1,7 @@
-# AI Calculator Project in Python
+# AI  Scientific Calculator Project in Python
 
 A simple and **interactive Python calculator** for everyday math and scientific calculations.
 
-# Scientific Calculator (Python)
 ## About This Project
 This is a **friendly, menu-driven scientific calculator** made in Python. It can help you do **basic math** like addition, subtraction, multiplication, and division, as well as **scientific calculations** like square root, powers, trigonometry (sine, cosine, tangent in degrees), and natural logarithms.
 
