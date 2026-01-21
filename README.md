@@ -8,7 +8,6 @@ This is a **friendly, menu-driven scientific calculator** made in Python. It can
 
 The calculator guides you step by step — you pick what you want to do, enter the numbers or angles, and it shows the result immediately. It’s smart enough to handle things like **division by zero** or invalid inputs without crashing.
 
----
 
 ## What You Can Do?
 * Add, subtract, multiply, and divide numbers
@@ -19,13 +18,10 @@ The calculator guides you step by step — you pick what you want to do, enter t
 * Keep using it until you decide to exit
 * Easy menu-driven interface for beginners
 
----
 
 ## Built With
 * Python 3.x
 * Python’s built-in `math` library for scientific functions
-
----
 
 ## How to Use
 1. Run the Python script in any Python environment.
@@ -34,14 +30,9 @@ The calculator guides you step by step — you pick what you want to do, enter t
 4. Check the answer instantly.
 5. Repeat as needed, or choose “Exit” to close the calculator.
 
----
 
 ## Author
 * **Adeeba Mehmood**
 
----
 ## License
 This project is **open source** and free for anyone to use and learn from.
-
-
-Do you want me to do that too?
