@@ -1,5 +1,5 @@
 import math
-print("----- Welcome to AI Scientific Calculator -----")
+print(" < Welcome to AI Scientific Calculator > ")
 while True:
     print("\nSelect what you want to calculate:")
     print("1) Addition")
